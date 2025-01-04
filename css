@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+header, footer {
+    background-color: #212529;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+/* Botones personalizados */
+#darkModeBtn, #webmasterInfoBtn {
+    margin-top: 10px;
+}
